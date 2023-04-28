@@ -81,9 +81,9 @@ Linters
 
 👤 **Author**
 
-- GitHub: (https://github.com/brighton0102)
-- Twitter: (@brighton_ui)
-- LinkedIn: (in/brighton-mtandi-976615267)
+- GitHub: [name](htpps://github.com/brighton0102)
+- Twitter: [name](https://twitter.com/brighton_ui)
+- LinkedIn: [name](https://www.linkedin.com/in/brighton-mtandi-976615267/)
 
 <!-- CONTRIBUTING -->
 
@@ -91,7 +91,7 @@ Linters
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/brighton0102/Portfolio/issues/).
 
 <!-- SUPPORT -->
 
@@ -109,6 +109,6 @@ I am thankful to be part of the less than one percent of the student's who get e
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/brighton0102/Portfolio/blob/hero-secion/LICENSE.txt) licensed.
+This project is [MIT](https://github.com/brighton0102/Portfolio/blob/main/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
