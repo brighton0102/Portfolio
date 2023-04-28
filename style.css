@@ -1,79 +1,79 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #e5e5e5;
+  font-family: 'Poppins', sans-serif;
+  background-color: #e5e5e5;
 }
 
-.container{
-    background-image: url('./img/background.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: transparent;
-    min-height: calc(100vh - 55px);
-    border-bottom-left-radius: 90px;
-    padding: 0 24px;
-    background-color: #fff;
+.container {
+  background-image: url('./img/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: calc(100vh - 55px);
+  border-bottom-left-radius: 90px;
+  padding: 0 24px;
+  background-color: #fff;
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 12px 24px;
-    background-color: #fff;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+  background-color: #fff;
 }
 
-nav div, nav header{
-    color: #6070ff;
+nav div,
+nav header {
+  color: #6070ff;
 }
 
 nav header {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
 }
 
-.title{
-    padding-top: 128px;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-    color: #172b4d;
+.title {
+  padding-top: 128px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
 }
 
-.description{
-    color: #344563;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    margin-top: 12px;
+.description {
+  color: #344563;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 12px;
 }
 
-.social-header{
-    text-transform: uppercase;
-    color: #7f8cff;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    margin: 12px 0 14px 0;
+.social-header {
+  text-transform: uppercase;
+  color: #7f8cff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 12px 0 14px 0;
 }
 
-.icons a{
-    margin-right: 19px;
-    
+.icons a {
+  margin-right: 19px;
 }
 
 .profile-card {
-    display: flex;
-    flex-flow: wrap;
+  display: flex;
+  flex-flow: wrap;
 }
 
-.profile-card h2, .profile-card p {
-    flex: 1 100%;
+.profile-card h2,
+.profile-card p {
+  flex: 1 100%;
 }
