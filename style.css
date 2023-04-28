@@ -13,14 +13,15 @@ body {
 .container {
   background-image: url('./img/background.png');
   background-repeat: no-repeat;
-  background-size: cover;
-  min-height: calc(100vh - 55px);
+  background-size: 100% auto;
+  min-height: 587.15px;
   border-bottom-left-radius: 90px;
   padding: 0 24px;
   background-color: #fff;
+  background-position: center;
 }
 
-nav {
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -28,15 +29,16 @@ nav {
   background-color: #fff;
 }
 
-nav div,
-nav header {
+header a,
+  header nav {
   color: #6070ff;
 }
 
-nav header {
+header a{
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
+  text-decoration: none;
 }
 
 .title {
@@ -66,6 +68,20 @@ nav header {
 
 .icons a {
   margin-right: 19px;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
 }
 
 .profile-card {
