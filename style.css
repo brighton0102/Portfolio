@@ -70,10 +70,5 @@ nav header {
 
 .profile-card {
   display: flex;
-  flex-flow: wrap;
-}
-
-.profile-card h2,
-.profile-card p {
-  flex: 1 100%;
+  flex-direction: column;
 }
