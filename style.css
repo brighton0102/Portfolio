@@ -216,6 +216,25 @@ button:active {
   margin-right: 36px;
 }
 
+.about-languages-title {
+  display: flex;
+  align-items: center;
+}
+
+.about-languages-img {
+  padding-right: 25px;
+}
+
+.language-list-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.language-main {
+  margin-bottom: 36px;
+}
+
 .language-section ul li {
   list-style-type: none;
 }
@@ -223,10 +242,58 @@ button:active {
 .language-list {
   display: flex;
   flex-direction: column;
+  margin-bottom: 36px;
+}
+
+.language-list li h4 {
+  font-family: Poppins, serif, sans serif;
+  color: #253858;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.language-img {
+  margin-right: 16px;
+}
+
+.about-language {
+  display: flex;
+  align-items: center;
+  background-color: #f7f7f9;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 12px;
+}
+
+.about-languages-title h3 {
+  font-family: Poppins, serif, sans serif;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 .about-section {
   margin: 114px 24px 48px 24px;
+}
+
+.skillset-main ul li {
+  list-style-type: none;
+}
+
+.skillset li h3 {
+  font-family: Poppins, serif, sans serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.skillset {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 23px;
+  border-bottom: 1px solid #dfe1e6;
+  margin-bottom: 24px;
 }
 
 /* Contact Me */
