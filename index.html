@@ -7,26 +7,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <header>
         <a href="#"> My Logo</a>
         <nav>
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
-          <line x1="3" y1="12" x2="21" y2="12"></line>
-          <line x1="3" y1="6" x2="21" y2="6"></line>
-          <line x1="3" y1="18" x2="21" y2="18"></line>
-        </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-menu">
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
         </nav>
     </header>
     <section class="container">
         <div class="profile-card">
             <h2 class="title">I'm Brighton. Glad to see <br />you!</h2>
             <p class="description">
-                I'm a software developer! I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.
+                I'm a software developer! I can help you build a product, feature or website. Look through some of my
+                work and experience! If you like what you see and have a project you need coded, don't hesitate to
+                contact me.
             </p>
         </div>
         <h3 class="social-header">Let's Connect</h3>
@@ -71,7 +76,7 @@
                 <li class="language">CSS</li>
                 <li class="language">JavaScript</li>
             </ul>
-            <a href="#"><button>See project</button></a>
+            <a href="#"><button type="submit">See project</button></a>
         </section>
 
         <section class="cards">
@@ -94,7 +99,7 @@
                 <li class="language">CSS</li>
                 <li class="language">JavaScript</li>
             </ul>
-            <a href="#"><button>See project</button></a>
+            <a href="#"><button type="submit">See project</button></a>
         </section>
         <section class="cards">
             <img class="card-works-image" src="/img/Snapshoot Portfolio_3.svg" alt="card-works" />
@@ -114,7 +119,7 @@
                 <li class="language">CSS</li>
                 <li class="language">JavaScript</li>
             </ul>
-            <a href="#"><button>See project</button></a>
+            <a href="#"><button type="submit">See project</button></a>
         </section>
 
         <section class="cards">
@@ -137,7 +142,7 @@
                 <li class="language">CSS</li>
                 <li class="language">JavaScript</li>
             </ul>
-            <a href="#"><button>See project</button></a>
+            <a href="#"><button type="submit">See project</button></a>
         </section>
     </section>
 
@@ -148,7 +153,9 @@
             <div class="profile-card">
                 <h2 class="title">About Myself</h2>
                 <p class="about-description">
-                    I'm a software developer! I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.
+                    I'm a software developer! I can help you build a product, feature or website. Look through some of
+                    my work and experience! If you like what you see and have a project you need coded, don't hesitate
+                    to contact me.
                 </p>
             </div>
             <h3 class="social-header">Let's Connect</h3>
@@ -170,7 +177,7 @@
                         <a href="#"><img src="/img/git_hub.svg" alt="gitHub" /></a>
                     </li>
                 </ul>
-                <a href="#"><button>Get my resume</button></a>
+                <a href="#"><button type="submit">Get my resume</button></a>
             </div>
         </div>
 
@@ -224,17 +231,24 @@
 
     <!--Contact Me-->
     <section class="Contact-Container">
-        <h2>Contact me</h2>
-        <p class="contact-me-message">
-            If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it!
-        </p>
-        <form action="" method="post">
-            <input type="text" name="user" id="user" placeholder="Brighton Albion" required maxlength="30" />
-            <input type="email" name="email" id="email" required placeholder="Brighton@gmail.com" />
+        <div class="contact-me">
+            <h2>Contact me</h2>
+            <p class="contact-me-message">
+                If you have an application you are interested in developing, a feature that you need built or a project
+                that needs coding. I'd love to help with it!
+            </p>
+            <form action="https://formspree.io/f/xrgvdzdj" method="post">
+                <input type="text" name="user" id="user" placeholder="Full Name" required maxlength="30" />
+                <input type="email" name="email" id="email" required placeholder="Email" />
 
-            <textarea name="comment" id="comment" cols="30" rows="10" required placeholder="Write your message here" maxlength="500"></textarea>
-            <button type="submit">Get in touch</button>
-        </form>
+                <textarea name="comment" id="comment" cols="30" rows="10" required placeholder="Write your message here"
+                    maxlength="500"></textarea>
+                <button class="contact-btn" type="submit">Get in touch</button>
+            </form>
+
+            <hr class="end-bar">
+        </div>
+
     </section>
 </body>
 
