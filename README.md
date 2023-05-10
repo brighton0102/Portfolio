@@ -26,10 +26,10 @@ HTML AND CSS
 
 <!-- Features -->
 
-### Key Features 
+### Key Features
 
-- *[Add HTML]*
-- *[Add css]*
+- _[Add HTML]_
+- _[Add css]_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -56,13 +56,12 @@ In order to run this project you need:
 Clone this repository to your desired folder:<br>
 https://github.com/brighton0102/Portfolio
 
-
 ### Install
 
 Install this project with:
 
 Github
-Vs code 
+Vs code
 to be able to access the code
 
 ### Usage
@@ -73,6 +72,7 @@ Linters
 git commands
 
 ### Run test
+
 To run tests, run the following command:
 
 Linters
@@ -81,9 +81,30 @@ Linters
 
 👤 **Author**
 
-- GitHub: [name](htpps://github.com/brighton0102)
-- Twitter: [name](https://twitter.com/brighton_ui)
-- LinkedIn: [name](https://www.linkedin.com/in/brighton-mtandi-976615267/)
+- GitHub: [brighton0102](htpps://github.com/brighton0102)
+- Twitter: [@brighton_ui](https://twitter.com/brighton_ui)
+- LinkedIn: [brighton](https://www.linkedin.com/in/brighton-mtandi-976615267/)
+
+👤 **Author**
+
+- GitHub: [znation2010](https://github.com/znation2010)
+- Twitter: [coming soon]
+- LinkedIn: [coming soon]
+
+👤 **Author**
+
+- GitHub: [RICHARD-SIKAONGA](https://github.com/richie1988)
+- Twitter: [@RICHARDSIK51272](https://twitter.com/RICHARDSIK51272)
+- LinkedIn: [coming soon]
+
+<!-- FUTURE FEATURES-->
+
+### Key Features <a name="key-features"></a>
+
+- **[Clickable-elements]**
+- **[Intaraction-page]**
+- **[Contact-form]**
+
 
 <!-- CONTRIBUTING -->
 
