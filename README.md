@@ -81,9 +81,9 @@ Linters
 
 👤 **Author**
 
-- GitHub: [name](htpps://github.com/brighton0102)
-- Twitter: [name](https://twitter.com/brighton_ui)
-- LinkedIn: [name](https://www.linkedin.com/in/brighton-mtandi-976615267/)
+- GitHub: [brighton0102](htpps://github.com/brighton0102)
+- Twitter: [@brighton_ui](https://twitter.com/brighton_ui)
+- LinkedIn: [brighton](https://www.linkedin.com/in/brighton-mtandi-976615267/)
 
 👤 **Author**
 
@@ -93,9 +93,9 @@ Linters
 
 👤 **Author**
 
-- GitHub: [name](htpps://github.com/brighton0102)
-- Twitter: [name](https://twitter.com/brighton_ui)
-- LinkedIn: [name](https://www.linkedin.com/in/brighton-mtandi-976615267/)
+- GitHub: [RICHARD-SIKAONGA](https://github.com/richie1988)
+- Twitter: [@RICHARDSIK51272](https://twitter.com/RICHARDSIK51272)
+- LinkedIn: [coming soon]
 
 <!-- CONTRIBUTING -->
 
