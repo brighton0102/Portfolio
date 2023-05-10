@@ -97,6 +97,15 @@ Linters
 - Twitter: [@RICHARDSIK51272](https://twitter.com/RICHARDSIK51272)
 - LinkedIn: [coming soon]
 
+<!-- FUTURE FEATURES-->
+
+### Key Features <a name="key-features"></a>
+
+- **[Clickable-elements]**
+- **[Intaraction-page]**
+- **[Contact-form]**
+
+
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
