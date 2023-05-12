@@ -14,6 +14,7 @@ html {
     box-sizing: inherit;
 }
 
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #e5e5e5;
@@ -39,16 +40,20 @@ header {
     background-color: #fff;
 }
 
-header a,
-header nav {
-    color: #6070ff;
-}
-
-header a {
+.logo {
     font-weight: 700;
     font-size: 18px;
     line-height: 20px;
     text-decoration: none;
+    color: #6070ff;
+}
+
+.desktop-nav {
+  display: none;
+}
+
+.burger {
+    color: #6070ff;
 }
 
 
@@ -310,6 +315,16 @@ ul {
   text-decoration: none;
 }
 
+.icons-btn a:hover {
+  background-color: #396df2;
+  color: #fff;
+}
+
+.icons-btn a:active {
+  opacity: 0.7;
+}
+
+
 .skillset-main ul li {
     list-style-type: none;
 }
@@ -525,4 +540,6 @@ form textarea {
     margin-right: 15px;
     align-items: center;
   }
+
+  
 }
