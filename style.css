@@ -39,18 +39,24 @@ header {
   padding: 12px 24px;
   background-color: #fff;
 }
-
+/*
 header a,
 header nav {
   color: #6070ff;
 }
-
-header a {
+*/
+.logo {
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
   text-decoration: none;
+  color: #6070ff;
 }
+
+.desktop-nav {
+  display: none;
+}
+
 
 .title {
   padding-top: 128px;
@@ -89,10 +95,11 @@ li a {
 
 ul {
   list-style-type: none;
+  display: flex;
 }
 
 li {
-  float: left;
+  
 }
 
 .profile-card {
@@ -182,7 +189,7 @@ li {
   list-style-type: none;
   color: #6070ff;
   margin-right: 1.25rem;
-  font-family: 0.75rem;
+  font-size: 0.75rem;
   background-color: #ebebff;
   border-radius: 8px;
   align-items: center;
@@ -190,30 +197,30 @@ li {
   margin-top: 0.75rem;
 }
 
-a button {
+.card-work-info a {
   font-family: Poppins, serif, sans serif;
   background-color: #fff;
   border: 1px solid #6070ff;
   border-radius: 8px;
   color: #396df2;
-  padding: 0.75rem;
   text-align: center;
-  text-decoration: none;
   cursor: pointer;
-  display: inline-block;
   font-weight: 500;
   font-size: 1rem;
+  display: inline-block;
   margin-top: 1.75rem;
   margin-bottom: 1.75rem;
+  padding: 12px;
   transition: background-color 0.15s, color 0.15s;
+  text-decoration: none;
 }
 
-button:hover {
+.card-work-info a:hover {
   background-color: #396df2;
   color: #fff;
 }
 
-button:active {
+.card-work-info a:active {
   opacity: 0.7;
 }
 
@@ -290,6 +297,24 @@ button:active {
 
 .about-section {
   margin: 7.125rem 1.5rem 3rem 1.5rem;
+}
+
+.icons-btn {
+  font-family: Poppins, serif, sans serif;
+  background-color: #fff;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  color: #396df2;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1rem;
+  display: inline-block;
+  margin-top: 1.75rem;
+  margin-bottom: 1.75rem;
+  padding: 12px;
+  transition: background-color 0.15s, color 0.15s;
+  text-decoration: none;
 }
 
 .skillset-main ul li {
@@ -418,4 +443,88 @@ form textarea {
   background: #0d151e;
   border-radius: 10px;
   margin-top: 32px;
+}
+
+
+/* Desktop */
+
+@media screen and (min-width: 768px) {
+  .container {
+    background-image: url(/img/Header-bg.svg);
+    background-size: contain;
+    padding: 120px 260px 435px 260px;
+  }
+
+  header {
+    padding: 25px 155px 25px 155px;
+  }
+
+  .desktop-nav {
+    display: flex;
+  }
+
+  .card-works {
+    margin: 142px 142px 142px 142px;
+  }
+
+  .card-work-info{
+    margin-top: 30px;
+  }
+  
+  .burger {
+    display: none;
+  }
+
+  .nav-items {
+    font-family: Poppins;
+    padding-left: 32px;
+    color: #344563;
+  }
+
+  .cards{
+    gap: 20px;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .cards .info-right, .cards .card-img-right {
+    order: 2;
+  }
+
+  .cards .info-left,  .cards .card-img-left {
+    order: 1;
+  }
+
+  .contact-me div {
+    width: 40%;
+    margin: 0 auto;
+  }
+
+  .about-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .language-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+    align-items: center;
+    
+  }
+
+  .language-section {
+    margin-top: 230px;
+  }
+
+  .about-language {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
