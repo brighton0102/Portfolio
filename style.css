@@ -52,6 +52,10 @@ header a {
   text-decoration: none;
 }
 
+header a:hover {
+  transform: scale(1.5);
+}
+
 .title {
   padding-top: 128px;
   font-weight: 700;
