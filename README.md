@@ -22,14 +22,17 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-HTML AND CSS
+.HTML 
+.CSS
 
 <!-- Features -->
 
-### Key Features
+### Key Features <a name="key-features"></a>
 
-- _[Add HTML]_
-- _[Add css]_
+- Portfolio webpage
+- Mobile first development
+- Responsiveness and flexibility for any screen size
+- Fast access to social media and other ways of contact
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -68,30 +71,23 @@ to be able to access the code
 
 To run the project, execute the following command:
 
-Linters
-git commands
-
-### Run test
-
-To run tests, run the following command:
-
-Linters
+Open index.html using live server extension.
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author**
+👤 **brighton mtandi**
 
 - GitHub: [brighton0102](htpps://github.com/brighton0102)
 - Twitter: [@brighton_ui](https://twitter.com/brighton_ui)
 - LinkedIn: [brighton](https://www.linkedin.com/in/brighton-mtandi-976615267/)
 
-👤 **Author**
+👤 **znation**
 
 - GitHub: [znation2010](https://github.com/znation2010)
 - Twitter: [coming soon]
 - LinkedIn: [coming soon]
 
-👤 **Author**
+👤 **RICHARD SIKAONGA**
 
 - GitHub: [RICHARD-SIKAONGA](https://github.com/richie1988)
 - Twitter: [@RICHARDSIK51272](https://twitter.com/RICHARDSIK51272)
@@ -99,7 +95,7 @@ Linters
 
 <!-- FUTURE FEATURES-->
 
-### Key Features <a name="key-features"></a>
+### Future Features <a name="Future-features"></a>
 
 - **[Clickable-elements]**
 - **[Intaraction-page]**
@@ -124,7 +120,7 @@ If you like this project, kindly leave a comment below and share it with other w
 
 ## 🙏 Acknowledgments <a name="Microverse Inc."></a>
 
-I am thankful to be part of the less than one percent of the student's who get enrolled at microverse.
+I would like to acknowledge my coding partners who helped me work on this project and meet my deadlines.
 
   <!-- LICENSE -->
 
