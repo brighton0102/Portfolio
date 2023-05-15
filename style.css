@@ -452,7 +452,7 @@ form textarea {
 
 @media screen and (min-width: 768px) {
   .container {
-    background-image: url(/img/Header-bg.svg);
+    background-image: url(img/Header-bg.svg);
     background-size: contain;
     padding: 120px 260px 435px 260px;
   }
