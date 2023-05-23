@@ -49,24 +49,6 @@ header {
   color: #6070ff;
 }
 
-.desktop-nav {
-  position: fixed;
-  top: 100%;
-  left: 0;
-  gap: 0;
-  flex-direction: column;
-  background: #6070FF;
-  mix-blend-mode: multiply;
-  width: 100%;
-  height: 100vh;
-  text-align: left;
-  transition: 0.3s;
-  
-}
-
-.nav-items {
-  margin: 5px 20px;
-}
 .nav-items a {
   color: #fff;
   font-family: 'Poppins', sans-serif;
@@ -74,16 +56,6 @@ header {
   font-weight: 400px;
   font-size: 20px;
   line-height: 44px;
-}
-
-.desktop-nav.active {
-top: 70px;
-}
-
-.burger {
-  display: block;
-  color: #6070ff;
-  cursor: pointer;
 }
 
 .bar{
@@ -94,9 +66,41 @@ top: 70px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: #000000;
-  z-index: 1;
+  z-index: -1;
 }
 
+@media screen and (max-width: 1024px){
+  .desktop-nav {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    gap: 0;
+    flex-direction: column;
+    background: #6070FF;
+    mix-blend-mode: multiply;
+    backdrop-filter: blur(10px);
+    width: 100%;
+    height: 100vh;
+    text-align: left;
+    transition: 0.3s;
+    padding-top: 50px;
+  }
+  
+  .desktop-nav.active {
+    top: 0px;
+    }
+    
+    .nav-items {
+      margin: 5px 20px;
+    }
+    
+    .burger {
+      display: block;
+      color: white;
+      cursor: pointer;
+      z-index: 99;
+    }
+    
 .burger.active .bar:nth-child(2){
   opacity: 0;
 }
@@ -105,6 +109,8 @@ top: 70px;
 }
 .burger.active .bar:nth-child(3){
   transform: translateY(-8px) rotate(-45deg);
+}
+
 }
 
 .title {
