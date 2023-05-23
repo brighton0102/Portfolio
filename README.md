@@ -101,6 +101,11 @@ Open index.html using live server extension.
 - Twitter: [@RICHARDSIK51272](https://twitter.com/RICHARDSIK51272)
 - LinkedIn: [coming soon]
 
+👤 **BLESSMAN NEWTON**
+
+- GitHub: [BLESSMAN NEWTON](https://github.com/Blessman-Newton)
+- Twitter: [@BLESSMAN NEWTON](https://twitter.com/blessman_newton)
+- LinkedIn: [@BLESSMAN NEWTON](https://twitter.com/blessman_newton)
 <!-- FUTURE FEATURES-->
 
 ### Future Features <a name="Future-features"></a>
