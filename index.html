@@ -17,37 +17,23 @@
 
   <body>
     <header>
-      <a class="logo" href="#"> My Logo</a>
+      <a class="logo" href="#container"> My Logo</a>
       <nav>
-        <div class="burger">
-          <svg
-            class="burger-menu"
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewbox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="feather feather-menu"
-          >
-            <line x1="3" y1="12" x2="21" y2="12"></line>
-            <line x1="3" y1="6" x2="21" y2="6"></line>
-            <line x1="3" y1="18" x2="21" y2="18"></line>
-          </svg>
-        </div>
         <div class="desktop">
           <ul class="desktop-nav">
-            <li class="nav-items"><a href="#">Portfolio</a></li>
-            <li class="nav-items"><a href="#">About</a></li>
-            <li class="nav-items"><a href="#">Contact</a></li>
+            <li class="nav-items"><a href="#card-works">Portfolio</a></li>
+            <li class="nav-items"><a href="#about-page">About</a></li>
+            <li class="nav-items"><a href="#Contact-Container">Contact</a></li>
           </ul>
+        </div>
+        <div class="burger" id="btn">
+          <span class="bar" id="btn1"></span>
+          <span class="bar"></span>
+          <span class="bar" id="btn2"></span>
         </div>
       </nav>
     </header>
-    <section class="container">
+    <section class="container" id="container">
       <div class="profile-card">
         <h2 class="title">I'm Brighton. Glad to see you!</h2>
         <p class="description">
@@ -80,7 +66,7 @@
     </section>
 
     <!-- work section-->
-    <section class="card-works">
+    <section class="card-works" id="card-works">
       <section class="cards">
         <div class="card-img-left">
           <img
@@ -208,7 +194,7 @@
 
     <!-- About Myself-->
 
-    <section class="about-page">
+    <section class="about-page" id="about-page">
       <div class="about-section">
         <div class="profile-card">
           <h2 class="title">About Myself</h2>
@@ -307,7 +293,7 @@
     </section>
 
     <!--Contact Me-->
-    <section class="Contact-Container">
+    <section class="Contact-Container" id="Contact-Container">
       <div class="contact-me">
             <div>
                 <h2>Contact me</h2>
@@ -347,5 +333,6 @@
         <hr class="end-bar" />
       </div>
     </section>
+    <script src="./jsScripts/menu.js"></script>
   </body>
 </html>
