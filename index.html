@@ -302,7 +302,7 @@
                   that you need built or a project that needs coding. I'd love to help
                   with it!
                 </p>
-                <form action="https://formspree.io/f/xrgvdzdj" method="post">
+                <form action="https://formspree.io/f/xrgvdzdj" method="post" id="contact-form">
                   <input
                     type="text"
                     name="user"
@@ -317,7 +317,9 @@
                     id="email"
                     required
                     placeholder="Email"
+                    onkeydown="validation()"
                   />
+                  <span class="err-msg"></span>
                   <textarea
                     name="comment"
                     id="comment"
@@ -328,11 +330,15 @@
                     maxlength="500"
                   ></textarea>
                   <button class="contact-btn" type="submit">Get in touch</button>
+                  <div class="displayer">
+                    <p id="error-msg" class="hidden"> Hi, <span>Dear</span> your email must be in lowercase  check it again</p>
+                  </div>
                 </form>
             </div>
         <hr class="end-bar" />
       </div>
     </section>
     <script src="./jsScripts/menu.js"></script>
+    <script src="./jsScripts/form.js"></script>
   </body>
 </html>

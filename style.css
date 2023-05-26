@@ -452,6 +452,12 @@ form textarea {
   margin-top: 32px;
 }
 
+#error-msg {
+  width: 35rem;
+  position: relative;
+  right: 11rem;
+}
+
 @media screen and (max-width: 768px) {
   .desktop-nav {
     position: fixed;
@@ -507,6 +513,19 @@ form textarea {
     transform: translateY(-8px) rotate(-45deg);
     background-color: #fff;
   }
+}
+
+.hidden {
+  display: none;
+}
+
+span {
+  color: black;
+}
+
+.displayer p {
+  color: red;
+  font-weight: 500;
 }
 
 /* Desktop */
