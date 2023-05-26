@@ -451,11 +451,13 @@ form textarea {
   border-radius: 10px;
   margin-top: 32px;
 }
+
 #error-msg {
   width: 35rem;
   position: relative;
   right: 11rem;
 }
+
 @media screen and (max-width: 768px) {
   .desktop-nav {
     position: fixed;
@@ -521,7 +523,7 @@ span {
   color: black;
 }
 
-.displayer p{
+.displayer p {
   color: red;
   font-weight: 500;
 }
