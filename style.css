@@ -474,7 +474,7 @@ form textarea {
   background-color: #fefefe;
   margin: auto;
   padding: 20px;
-  width: 60%;
+  width: 70%;
   border: 1px solid #EBECF0;
   /* Base/ Soft */
   box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
@@ -511,25 +511,18 @@ form textarea {
 }
 
 .modal-btn{
-  /* White */
   background: #FFFFFF;
-  /* Neutrals/N30 - L */
   border: 1px solid #396DF2;
-  /* Base/ Soft */
   border-radius: 6px;
   font-style: normal;
-  padding: 7px 16px;
+  padding: 10px 25px;
   font-weight: 500;
   font-size: 15px;
   display: flex;
   align-items: center;
   line-height: 20px;
   text-align: center;
-
-  /* Primary/B500 */
-
   color: #396DF2;
-
 }
 
 .modal-btn-container {
@@ -551,6 +544,23 @@ form textarea {
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+
+.pt-top {
+  padding-top: 20px;
+}
+
+.pl-left {
+  padding-left: 10px;
+}
+
+.grid-item .copy {
+font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 30px;
+color: #344563;
 }
 
 @media screen and (max-width: 768px) {
