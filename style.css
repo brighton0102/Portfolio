@@ -452,6 +452,105 @@ form textarea {
   margin-top: 32px;
 }
 
+/* The Modal (background) */
+.modal {
+  display: block; /* Hidden by default */
+  position: fixed;
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.3); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  width: 60%;
+  border: 1px solid #EBECF0;
+  /* Base/ Soft */
+  box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+  border-radius: 16px;
+}
+
+.modal-content .grid-container .copy{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* or 188% */
+  /* Neutrals/N600 */
+
+  color: #344563;
+}
+
+.modal-content .grid-container {
+  display: grid;
+  grid-template-columns: 66% auto;
+}
+
+.grid-container .grid-item .languages-used {
+  flex-wrap: wrap;
+}
+
+.my{
+  margin: 30px 0px;
+}
+
+.border-b {
+  border-bottom: 1px solid #EBECF0;
+  padding-bottom: 22px;
+}
+
+.modal-btn{
+  /* White */
+  background: #FFFFFF;
+  /* Neutrals/N30 - L */
+  border: 1px solid #396DF2;
+  /* Base/ Soft */
+  border-radius: 6px;
+  font-style: normal;
+  padding: 7px 16px;
+  font-weight: 500;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  line-height: 20px;
+  text-align: center;
+
+  /* Primary/B500 */
+
+  color: #396DF2;
+
+}
+
+.modal-btn-container {
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 768px) {
   .desktop-nav {
     position: fixed;
