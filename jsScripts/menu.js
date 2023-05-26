@@ -10,5 +10,4 @@ document.querySelectorAll('.nav-items').forEach((n) => n
   .addEventListener('click', () => {
     burger.classList.remove('active');
     desktopNav.classList.remove('active');
-  }
-));
+  }));
