@@ -4,14 +4,14 @@ async function api() {
   jsonData.data.portfolio.forEach((el, index) => {
     const cardTemplate = `
         <section class="cards">
-            <div class=${(index + 1) % 2 === 0 ? `card-img-left` : `card-img-right`}>
+            <div class=${(index + 1) % 2 === 0 ? 'card-img-left' : 'card-img-right'}>
                 <img
                 class="card-works-image"
                 src=${el.featured_image}
                 alt=${el.name + index}
                 />
             </div>
-            <div class=${(index + 1) % 2 === 0 ? `"card-work-info info-right" ` : `"info-left card-work-info"`}>
+            <div class=${(index + 1) % 2 === 0 ? '"card-work-info info-right" ' : '"info-left card-work-info"'}>
                 <h2 class="title-work-section">${el.name}</h2>
                 <div class="tech-field">
                     <p id="bold-st">${el.subheading[0]}</p>
