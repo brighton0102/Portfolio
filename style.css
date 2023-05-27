@@ -495,10 +495,19 @@ form textarea {
 .modal-content .grid-container {
   display: grid;
   grid-template-columns: 66% auto;
+  gap: 10px;
 }
 
 .grid-container .grid-item .languages-used {
   flex-wrap: wrap;
+}
+
+.languages-used{
+  color: #fff;
+}
+
+.language{
+  white-space: nowrap;
 }
 
 .my{
@@ -566,6 +575,15 @@ color: #344563;
 @media screen and (max-width: 768px) {
   .modal-content .grid-container {
     grid-template-columns: 100%;
+  }
+
+  .grid-container .grid-item .pt-top{
+    display: none !important;
+  } 
+
+  .languages-used{
+    display: inline-flex;
+    flex-wrap: wrap;
   }
 
   .modal-content {
@@ -689,6 +707,10 @@ color: #344563;
   .cards .info-left,
   .cards .card-img-left {
     order: 1;
+  }
+
+  .languages-used {
+    margin-top: 3px;
   }
 
   .contact-me div {

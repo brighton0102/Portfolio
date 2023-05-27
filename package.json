@@ -530,5 +530,13 @@
     "yargs-parser": "^20.2.9",
     "yauzl": "^2.10.0",
     "zwitch": "^1.0.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brighton0102/Portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brighton0102/Portfolio/issues"
+  },
+  "homepage": "https://github.com/brighton0102/Portfolio#readme"
 }

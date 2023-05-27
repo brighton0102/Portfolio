@@ -24,11 +24,11 @@ async function api() {
                     <p class="description">
                         ${el.description}
                     </p>
-                    <ul class="languages-used">
+                    <div class="languages-used">
                     ${el.technology.map((res) => {
-                        return (`<li class="language">${ res}</li>`)
+                        return (`<span class="language">${res}</span>`)
                     })}
-                    </ul>
+                    </div>
                     <div>
                         <button class="card-work-info show-modal">See project</button>
                     </div>
@@ -38,6 +38,8 @@ async function api() {
 
         const element = document.querySelector('.card-works');
         element.innerHTML += card_template;
+
+        
 
     });
 }
