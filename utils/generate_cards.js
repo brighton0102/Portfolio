@@ -30,7 +30,7 @@ async function api() {
                     })}
                     </ul>
                     <div>
-                    <a class="card-work-info" href="#">See project</a>
+                        <button class="card-work-info show-modal">See project</button>
                     </div>
                 </div>
             </section>

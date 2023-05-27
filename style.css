@@ -195,7 +195,7 @@ ul {
   margin-top: 0.75rem;
 }
 
-.card-work-info a {
+.card-work-info .show-modal {
   font-family: Poppins, serif, sans serif;
   background-color: #fff;
   border: 1px solid #6070ff;
@@ -213,12 +213,12 @@ ul {
   text-decoration: none;
 }
 
-.card-work-info a:hover {
+.card-work-info .show-modal:hover {
   background-color: #396df2;
   color: #fff;
 }
 
-.card-work-info a:active {
+.card-work-info .show-modal:active {
   opacity: 0.7;
 }
 
@@ -454,7 +454,7 @@ form textarea {
 
 /* The Modal (background) */
 .modal {
-  display: block; /* Hidden by default */
+  display: none; /* Hidden by default */
   position: fixed;
   z-index: 1; /* Sit on top */
   padding-top: 100px; /* Location of the box */
@@ -472,7 +472,7 @@ form textarea {
 /* Modal Content */
 .modal-content {
   background-color: #fefefe;
-  margin: auto;
+  margin: auto auto 100px auto;
   padding: 20px;
   width: 70%;
   border: 1px solid #EBECF0;
@@ -561,6 +561,21 @@ font-weight: 300;
 font-size: 16px;
 line-height: 30px;
 color: #344563;
+}
+
+@media screen and (max-width: 768px) {
+  .modal-content .grid-container {
+    grid-template-columns: 100%;
+  }
+
+  .modal-content {
+    width: 90%;
+  }
+
+  .modal-btn-container .modal-btn{
+    white-space: nowrap;
+  }
+  
 }
 
 @media screen and (max-width: 768px) {
