@@ -193,6 +193,7 @@ ul {
   align-items: center;
   padding: 0.25rem 0.75rem;
   margin-top: 0.75rem;
+  white-space: nowrap;
 }
 
 .card-work-info .show-modal {
@@ -469,10 +470,9 @@ form textarea {
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  background-color: rgba(0,0,0,0.3); /* Black w/ opacity */
+  background-color: rgba(0, 0, 0, 0.3); /* Black w/ opacity */
 }
 
 /* Modal Content */
@@ -481,18 +481,30 @@ form textarea {
   margin: auto auto 100px auto;
   padding: 20px;
   width: 70%;
-  border: 1px solid #EBECF0;
+  border: 1px solid #ebecf0;
+
   /* Base/ Soft */
-  box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
   border-radius: 16px;
 }
 
-.modal-content .grid-container .copy{
+.grid-item .copy {
+  font-family: Poppins, serif, sans serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  color: #344563;
+}
+
+.modal-content .grid-container .copy {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
+
   /* or 188% */
+
   /* Neutrals/N600 */
 
   color: #344563;
@@ -504,30 +516,26 @@ form textarea {
   gap: 10px;
 }
 
+.languages-used {
+  color: #fff;
+}
+
 .grid-container .grid-item .languages-used {
   flex-wrap: wrap;
 }
 
-.languages-used{
-  color: #fff;
-}
-
-.language{
-  white-space: nowrap;
-}
-
-.my{
-  margin: 30px 0px;
+.my {
+  margin: 30px 0;
 }
 
 .border-b {
-  border-bottom: 1px solid #EBECF0;
+  border-bottom: 1px solid #ebecf0;
   padding-bottom: 22px;
 }
 
-.modal-btn{
-  background: #FFFFFF;
-  border: 1px solid #396DF2;
+.modal-btn {
+  background: #fff;
+  border: 1px solid #396df2;
   border-radius: 6px;
   font-style: normal;
   padding: 10px 25px;
@@ -537,7 +545,7 @@ form textarea {
   align-items: center;
   line-height: 20px;
   text-align: center;
-  color: #396DF2;
+  color: #396df2;
 }
 
 .modal-btn-container {
@@ -549,7 +557,7 @@ form textarea {
 
 /* The Close Button */
 .close {
-  color: #aaaaaa;
+  color: #aaa;
   float: right;
   font-size: 28px;
 }
@@ -569,25 +577,16 @@ form textarea {
   padding-left: 10px;
 }
 
-.grid-item .copy {
-font-family: Poppins;
-font-style: normal;
-font-weight: 300;
-font-size: 16px;
-line-height: 30px;
-color: #344563;
-}
-
 @media screen and (max-width: 768px) {
   .modal-content .grid-container {
     grid-template-columns: 100%;
   }
 
-  .grid-container .grid-item .pt-top{
+  .grid-container .grid-item .pt-top {
     display: none !important;
-  } 
+  }
 
-  .languages-used{
+  .languages-used {
     display: inline-flex;
     flex-wrap: wrap;
   }
@@ -596,10 +595,9 @@ color: #344563;
     width: 90%;
   }
 
-  .modal-btn-container .modal-btn{
+  .modal-btn-container .modal-btn {
     white-space: nowrap;
   }
-  
 }
 
 @media screen and (max-width: 768px) {

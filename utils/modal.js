@@ -1,19 +1,18 @@
 /* eslint-disable func-names */
 /* eslint-disable quotes */
 
-
 /* eslint-disable linebreak-style */
 const modal = document.getElementById('productModal');
 
-window.addEventListener("load", function() { // when the page has loaded
-  let buttons = document.querySelectorAll(".show-modal");
-buttons.forEach((btn, index) => {// index will be current button index
-  btn.addEventListener("click", async function (e) {
-    const response = await fetch("./utils/portfolio.json");
-    const jsonData = await response.json();
-    const item = jsonData.data.portfolio[index];
+window.addEventListener("load", () => { // when the page has loaded
+  const buttons = document.querySelectorAll(".show-modal");
+  buttons.forEach((btn, index) => { // index will be current button index
+    btn.addEventListener("click", async () => {
+      const response = await fetch("./utils/portfolio.json");
+      const jsonData = await response.json();
+      const item = jsonData.data.portfolio[index];
 
-    const modal_template = `
+      const modalTemplate = `
     <div class="modal-content" id="modal-content">
             <span class="close">&times;</span>
             <h2 class="title-work-section">${item.name}</h2>
@@ -27,7 +26,7 @@ buttons.forEach((btn, index) => {// index will be current button index
             <img
               class="card-works-image my"
               src=${item.featured_image}
-              alt=${item.name+index}
+              alt=${item.name + index}
             />
             <div class="grid-container">
               <div class="grid-item copy">
@@ -41,9 +40,7 @@ buttons.forEach((btn, index) => {// index will be current button index
               </div>
               <div class="grid-item">
                 <ul class="languages-used border-b">
-                ${item.technology.map((res) => {
-                  return (`<li class="language">${ res}</li>`)
-              })}
+                ${item.technology.map((res) => (`<li class="language">${res}</li>`))}
                 </ul>
                 <div class="modal-btn-container">
                   <button class="modal-btn">See live <img height="20px" class="pl-left" src="img/live.png" alt="live"></button>
@@ -54,22 +51,19 @@ buttons.forEach((btn, index) => {// index will be current button index
           </div>
     `;
 
-    const element = document.querySelector('.modal');
-    element.innerHTML += modal_template;
-    modal.style.display = "block";
+      const element = document.querySelector('.modal');
+      element.innerHTML += modalTemplate;
+      modal.style.display = "block";
 
-    const span = document.getElementsByClassName("close")[0];
-    span.addEventListener("click", function (e) {
-      modal.style.display = "none";
-      const element = document.getElementById('modal-content');
-      element.remove();
+      const span = document.getElementsByClassName("close")[0];
+      span.addEventListener("click", () => {
+        modal.style.display = "none";
+        const element = document.getElementById('modal-content');
+        element.remove();
+      });
     });
-    
   });
-})
-  });
-
-
+});
 
 window.onclick = function (event) {
   if (event.target === modal) {
